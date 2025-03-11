@@ -1,0 +1,20 @@
+solana-swap/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Swap.js
+│   │   └── WalletConnect.js
+│   ├── services/
+│   │   ├── solanaService.js
+│   │   └── swapUtils.js
+│   ├── styles/
+│   │   ├── Swap.module.css
+│   │   └── globals.css
+│   ├── App.js
+│   └── index.js
+├── solana_programs/ (contratos Solana em Rust)
+│   └── swap_program/
+│       ├── Cargo.toml
+│       └── src/
+│           └── lib.rs
+└── package.json
