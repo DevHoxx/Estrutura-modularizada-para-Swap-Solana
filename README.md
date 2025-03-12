@@ -5,16 +5,16 @@ Para executar o projeto:
 Instale dependências:
 
 bash
-1 - npm install @solana/web3.js @solana/spl-token @solana/wallet-adapter-base @solana/wallet-adapter-react @solana/wallet-adapter-react-ui @solana/wallet-adapter-phantom
+### 1 - npm install @solana/web3.js @solana/spl-token @solana/wallet-adapter-base @solana/wallet-adapter-react @solana/wallet-adapter-react-ui @solana/wallet-adapter-phantom
 
-2.Inicie o frontend:
+### 2.Inicie o frontend:
 
-bash
-1 - npm start
+### bash
+### 1 - npm start
 
-3.Para o contrato Solana:
+### 3.Para o contrato Solana:
 
-bash
+### bash
 
 1 - cd solana_programs/swap_program
 2 - cargo build-bpf
