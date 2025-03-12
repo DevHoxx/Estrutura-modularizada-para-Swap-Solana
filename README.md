@@ -14,7 +14,7 @@ bash
 
 ### 3.Para o contrato Solana:  
 
-### bash\
+### bash
 ###1 - cd solana_programs/swap_program  
 ###2 - cargo build-bpf  
 ###3 - solana program deploy ./target/deploy/swap_program.so  
